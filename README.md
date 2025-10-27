@@ -56,15 +56,18 @@ It allows users to sign up, log in, and manage job applications with CRUD operat
 Visit http://localhost:5173 in your browser.
 
 ## API Endpoints
-Auth
-Method	Endpoint	        Description
-POST	/api/auth/signup	Register a new user
-POST	/api/auth/login	    Login and get JWT token
 
-Job Applications
-Method	  Endpoint	        Description
-GET	     /api/applications	 Get all jobs for the user
-POST	/api/applications	 Create a new job application
-GET	   /api/applications/:id Get a single job
-PUT	   /api/applications/:id Update a job
-DELETE /api/applications/:id Delete a job
+### Auth
+| Method | Endpoint| Description|
+
+| POST   | /api/auth/signup  | Register a new user|
+| POST   | /api/auth/login   | Login and get JWT token|
+
+### Job Applications
+| Method | Endpoint | Description|
+
+| GET    | /api/applications            | Get all jobs for the user    |
+| POST   | /api/applications            | Create a new job application |
+| GET    | /api/applications/:id        | Get a single job             |
+| PUT    | /api/applications/:id        | Update a job                 |
+| DELETE | /api/applications/:id        | Delete a job                 |
