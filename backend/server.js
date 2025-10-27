@@ -10,7 +10,9 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: "http://localhost:5173", // your frontend URL (Vite default)
+  origin: [
+    "https://job-application-tracker-hmb7.vercel.app",
+    "http://localhost:5173"],// your frontend URL (Vite default)
   credentials: true,
 };
 app.use(cors(corsOptions));
