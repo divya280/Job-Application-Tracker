@@ -58,6 +58,7 @@ Visit http://localhost:5173 in your browser.
 ## API Endpoints
 
 ### Auth
+```
 | Method | Endpoint| Description|
 
 | POST   | /api/auth/signup  | Register a new user|
@@ -71,3 +72,4 @@ Visit http://localhost:5173 in your browser.
 | GET    | /api/applications/:id        | Get a single job             |
 | PUT    | /api/applications/:id        | Update a job                 |
 | DELETE | /api/applications/:id        | Delete a job                 |
+```
